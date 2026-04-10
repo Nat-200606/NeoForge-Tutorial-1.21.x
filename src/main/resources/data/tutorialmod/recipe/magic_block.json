@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tutorialmod:alexandrite"
+    },
+    "R":{
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "RBR",
+    "BBB",
+    "RBR"
+  ],
+  "result":{
+  "count": 1,
+    "id": "tutorialmod:magic_block"
+}
+}

@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ALEXANDRITE);
                 output.accept(ModItems.RAW_ALEXANDRITE);
                 output.accept(ModItems.MAGICCHISEL);
+                output.accept(ModItems.MAGIC_SUSHI);
     }).build());
 
     public static final Supplier<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TAB.register("alexandrite_blocks_tab",
@@ -34,6 +35,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.ALEXANDRITE_BLOCK);
                 output.accept(ModBlocks.ALEXANDRITE_ORE);
                 output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+                output.accept(ModBlocks.MAGIC_BLOCK);
     }).build());
 
     public static void register(IEventBus eventBus){

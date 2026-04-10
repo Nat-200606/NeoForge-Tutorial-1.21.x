@@ -2,10 +2,12 @@
   "item.tutorialmod.alexandrite": "Alexandrite",
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
   "item.tutorialmod.magic_chisel": "Magic Chisel",
+  "item.tutorialmod.magic_sushi": "Magic Sushi",
 
   "block.tutorialmod.alexandrite_block": "Alexandrite Block",
   "block.tutorialmod.alexandrite_ore": "Alexandrite Ore",
   "block.tutorialmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
   "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks"
