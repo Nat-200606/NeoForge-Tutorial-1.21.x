@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.ALEXANDRITE);
                 output.accept(ModItems.RAW_ALEXANDRITE);
+                output.accept(ModItems.MAGICCHISEL);
     }).build());
 
     public static final Supplier<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TAB.register("alexandrite_blocks_tab",

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tutorialmod:alexandrite"
+    },
+    "R":{
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    " BB",
+    " RB",
+    "R  "
+  ],
+  "result":{
+  "count": 1,
+    "id": "tutorialmod:magic_chisel"
+}
+}
