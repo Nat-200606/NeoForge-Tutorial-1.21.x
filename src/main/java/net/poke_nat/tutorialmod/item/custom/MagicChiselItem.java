@@ -19,7 +19,7 @@ public class MagicChiselItem extends Item {
                     Blocks.STONE, Blocks.STONE_BRICKS,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                     Blocks.STONE_BRICKS,Blocks.STONE,
-                    Blocks.END_STONE_BRICKS,Blocks.STONE_BRICKS
+                    Blocks.END_STONE_BRICKS,Blocks.END_STONE
             );
     public MagicChiselItem(Properties properties){
         super(properties);
