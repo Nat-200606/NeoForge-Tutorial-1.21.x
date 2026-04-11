@@ -5,6 +5,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.poke_nat.tutorialmod.TutorialMod;
+import net.poke_nat.tutorialmod.item.custom.FuelItem;
 import net.poke_nat.tutorialmod.item.custom.MagicChiselItem;
 
 public class ModItems {
@@ -18,6 +19,8 @@ public class ModItems {
             () -> new MagicChiselItem(new Item.Properties().durability(64)));
     public static final DeferredItem<Item> MAGIC_SUSHI = ITEMS.register("magic_sushi",
             () -> new Item(new Item.Properties().food(ModFoodProperties.MAGIC_SUSHI)));
+    public static final DeferredItem<Item> MGIC_COAL = ITEMS.register("magic_coal",
+            ()-> new FuelItem(new Item.Properties(), 4800));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
