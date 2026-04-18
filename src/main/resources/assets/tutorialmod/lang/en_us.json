@@ -11,5 +11,9 @@
   "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
-  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks"
+  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "troll raw Alexandrite on top",
+  "tooltip.tutorialmod.magic_chisel.shift_down": "Blocks to be used: Stone, End Stone",
+  "tooltip.tutorialmod.magic_chisel": "SHIFT for more info"
 }
