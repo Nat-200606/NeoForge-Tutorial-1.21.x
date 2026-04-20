@@ -18,6 +18,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.neoforged.neoforge.client.event.sound.SoundEvent;
 import net.poke_nat.tutorialmod.item.ModItems;
+import net.poke_nat.tutorialmod.util.ModTags;
 
 import java.util.List;
 
@@ -36,13 +37,17 @@ public class MagicBlock extends Block {
 
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
-        if (entity instanceof ItemEntity itemEntity){
-            if (itemEntity.getItem().getItem() == ModItems.RAW_ALEXANDRITE.get()){
-                itemEntity.setItem(new ItemStack(ModItems.ALEXANDRITE.get(), itemEntity.getItem().getCount()));
+        if (entity instanceof ItemEntity itemEntity) {
+            if (isValidItem(itemEntity.getItem())) {
+                    itemEntity.setItem(new ItemStack(ModItems.ALEXANDRITE.get(), itemEntity.getItem().getCount()));
             }
         }
 
         super.stepOn(level, pos, state, entity);
+    }
+
+    public boolean isValidItem(ItemStack item){
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
